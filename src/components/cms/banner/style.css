@@ -1,0 +1,55 @@
+.banner-form{
+    min-width: 600px;
+    padding: 0px 20px;
+}
+.banner-form .image-box{
+    height: 200px;
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.banner-form .image-box .icon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-form .image-box .image-size{
+    background: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.banner-form .image-box .img{
+    width: 100%;
+    height: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}
+.banner-form .image-box .icon i{
+    font-size: 5rem;
+    opacity: 0.1;
+}
+.view-image-bt{
+    margin: 0px 10px;
+    cursor: pointer;
+    color: #4183c4;
+}
+.bg-box{
+    background-size: contain !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+}

@@ -1,0 +1,67 @@
+.table_cell_copyhand {
+    display: flex;
+    justify-content: space-between;
+}
+#product__header {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#product_button_add {
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+#coin__image {
+    display: flex;
+    .image {
+        width: 20px;
+        height: 20px;
+    }
+    .coin {
+        margin: auto 0;
+        padding-left: 10px;
+    }
+}
+//META
+#meta__custome {
+    padding: 10px;
+    .meta__label {
+        font-size: 13px;
+        padding: 10px;
+        margin-bottom: 3px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.column_fixed {
+    .ui.table tr td:last-child {
+        position: sticky;
+        right: 0;
+        top: 0;
+        background-color: #fff !important;
+    }
+    .ui.table tr th:last-child {
+        position: sticky;
+        right: 0;
+        top: 0;
+        background-color: #fff !important;
+    }
+}
+#horizontal_scroll_table {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#alert_commamd {
+    align-items: center;
+}
+
+#alert_message {
+    align-items: center;
+    height: 30px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+@mixin styleText($color,$fs, $fw){
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+@mixin styleButton($bg-color, $border-color, $radius, $py, $px){
+    background-color:$bg-color ;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    padding: $py $px;
+
+}
+@mixin styleHoverButton ($bg-color, $border-color, $color) {
+ background-color: $bg-color;
+ border-color:$border-color;
+ color: $color;
+}
+// $screen: bien chua ten man hinh
+@mixin responsive($screen){
+//kiem tra ten man hinh hop le
+ @if( map-has-key($map:$breakpoints , $key:$screen)){
+    //tim man hinh dung(hop le) 
+    //$value chua giá trị màn hình lấy được(vd: 576px)
+    $value: map-get($map:$breakpoints , $key:$screen );
+    @media screen and (max-width:$value ){
+        @content;
+ }
+}
+ @else{
+     @warn 'Man hinh khong hop le';
+ }
+}
+
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        // background-size: $bg-size;
+        position: $position;
+        repeat: $repeat;
+     
+    }
+}

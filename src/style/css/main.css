@@ -1,0 +1,112 @@
+.table_cell_copyhand {
+  display: flex;
+  justify-content: space-between; }
+
+#product__header {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+#product_button_add {
+  text-align: right;
+  margin-right: 20px;
+  padding-bottom: 10px; }
+
+#coin__image {
+  display: flex; }
+  #coin__image .image {
+    width: 20px;
+    height: 20px; }
+  #coin__image .coin {
+    margin: auto 0;
+    padding-left: 10px; }
+
+#meta__custome {
+  padding: 10px; }
+  #meta__custome .meta__label {
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+#horizontal_scroll_table{
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  padding: 0px;
+  margin-top: 15px;
+  border-radius: 5px !important;
+}
+.column_fixed .ui.table tr td,
+.column_fixed .ui.table tr th{
+  padding: 10px 10px !important;
+}
+.column_fixed .ui.table tr th{
+   background-color: #f5f5f5;
+}
+
+.column_fixed .ui.table tr td:last-child {
+  position: sticky;
+  right: 0;
+  top: 0;
+  background-color: #fff; }
+
+.column_fixed .ui.table tr th:last-child {
+  position: sticky;
+  right: 0;
+  top: 0;
+  background-color: #f5f5f5; }
+
+#horizontal_scroll_table {
+  overflow-x: scroll;
+  white-space: nowrap; }
+
+#alert_commamd {
+  align-items: center; }
+
+#alert_message {
+  align-items: center;
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#swap_list_meta {
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  border: none;
+  box-shadow: none; }
+  #swap_list_meta .swap_list_gridcolumn {
+    padding: 0 3px 0 0; }
+    #swap_list_meta .swap_list_gridcolumn .label {
+      font-size: 12px;
+      width: 100%;
+      margin-bottom: 3px; }
+      #swap_list_meta .swap_list_gridcolumn .label .label_detail {
+        display: flex;
+        justify-content: center; }
+        #swap_list_meta .swap_list_gridcolumn .label .label_detail span {
+          margin: 0 3px; }
+
+#startup__meta {
+  margin-bottom: -10px;
+  margin-left: "-10px";
+  border: none;
+  box-shadow: none; }
+  #startup__meta .startup__column {
+    padding: 0 3px 0 0; }
+    #startup__meta .startup__column .startup__label {
+      padding: 10px;
+      font-size: 13px;
+      margin-bottom: 3px;
+      height: 100px;
+      width: 100%;
+      vertical-align: top; }
+      #startup__meta .startup__column .startup__label .startup__label__detail {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0; }

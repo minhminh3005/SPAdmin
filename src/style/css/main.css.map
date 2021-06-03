@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,UAAU,CAAA;EACN,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,KAAK;EACpB,WAAW,EAAE,KAAK;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/swap/_swapList.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
